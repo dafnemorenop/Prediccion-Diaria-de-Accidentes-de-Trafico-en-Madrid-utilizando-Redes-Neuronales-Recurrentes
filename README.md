@@ -1,6 +1,6 @@
-# Proyecto Predicción de accidentes
+# Proyecto Accidentalidad
 
-Este repositorio contiene diversos scripts y datos relacionados con el proyecto Predicción de accidentes.
+Este repositorio contiene diversos scripts y datos relacionados con el proyecto Accidentalidad.
 
 ## Descripción
 
