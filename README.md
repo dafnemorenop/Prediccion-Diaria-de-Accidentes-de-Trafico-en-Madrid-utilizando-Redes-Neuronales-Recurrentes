@@ -21,3 +21,28 @@ Dentro del archivo `.zip` incluido en el repositorio, encontrarás los siguiente
 - **Archivos CSV**: Datos utilizados como base para el proyecto, dentro de la carpeta de Data.
 - **Archivos PKL**: Archivos resultantes después de la limpieza y el análisis exploratorio de datos (EDA). Estos archivos contienen los datos procesados y limpios.
 - **Mapas de Accidentes**: Mapas interactivos creados con la librería Folium, que muestran la distribución de accidentes por distritos en Madrid.
+
+## Instalación
+
+Para ejecutar los scripts en este proyecto, asegúrate de tener instaladas las siguientes librerías:
+
+- `pandas` (para manipulación y análisis de datos)
+- `numpy` (para operaciones numéricas)
+- `re` (para operaciones con expresiones regulares)
+- `plotly` (para visualización interactiva de datos)
+  - `plotly.express` (para crear gráficos interactivos de forma sencilla)
+  - `plotly.graph_objects` (para crear gráficos personalizados)
+  - `plotly.subplots` (para crear subgráficos)
+- `matplotlib` (para visualización de datos estática)
+- `seaborn` (para visualización de datos estadísticos)
+- `keras` (para construir y entrenar modelos de deep learning)
+  - `keras.callbacks` (para callbacks durante el entrenamiento de modelos)
+  - `keras.layers` (para diferentes capas de redes neuronales)
+  - `keras.optimizers` (para optimizadores en redes neuronales)
+- `tensorflow` (para crear y entrenar redes neuronales con Keras)
+  - `tensorflow.keras.layers` (para capas en redes neuronales)
+  - `tensorflow.keras.models` (para definir y entrenar modelos de redes neuronales)
+
+## Uso
+
+Sigue las instrucciones en los notebooks para ejecutar los scripts.
