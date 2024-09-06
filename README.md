@@ -10,6 +10,12 @@ Predicción Diaria de Accidentes de Tráfico en Madrid utilizando Redes Neuronal
 
 Este proyecto se enfocó en el desarrollo de un modelo de red neuronal recurrente (RNN) para predecir la cantidad diaria de accidentes de tráfico en Madrid. Aplicando técnicas de deep learning para el análisis de series temporales, el objetivo es proporcionar una herramienta que permita anticipar y mitigar riesgos, contribuyendo así a la implementación de medidas proactivas para mejorar la seguridad vial y reducir el número de accidentes.
 
+## Archivos
+
+- `01 - Limpieza.ipynb`: Script para limpieza de datos.
+- `02 - EDA`: Script para análisis de datos.
+- `03 - Deep Learning Regresion`: Script para aplicar técnicas de regresión mediante deep learning. Este script utiliza modelos de aprendizaje profundo para realizar predicciones basadas en los datos procesados.
+
 Dentro del archivo `.zip` incluido en el repositorio, encontrarás los siguientes elementos:
 
 - **Archivos CSV**: Datos utilizados como base para el proyecto, dentro de la carpeta de Data.
