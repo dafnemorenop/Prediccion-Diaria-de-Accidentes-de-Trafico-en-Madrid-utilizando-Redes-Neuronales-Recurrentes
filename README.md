@@ -12,7 +12,7 @@ A continuación se abre el archivo `EDA.ipynb` para visualizar los datos, detect
 
 Por último, en el archivo `Deep Learning Regresion.ipynb` se crea un Modelo de Regresión para la Predicción de Accidentes de Tráfico en Madrid al día mediante Redes Neuronales Recurrentes.
 
-También hay diversos mapas de los accidentes por distritos en Madrid, creados con la librería Folium. 
+`Complemento - Folium` tiene diversos mapas de los accidentes por distritos en Madrid, creados con la librería Folium. 
 
 ## Descripción
 
