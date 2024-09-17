@@ -16,6 +16,7 @@ Este proyecto se enfocó en el desarrollo de un modelo de red neuronal recurrent
 - `02 - EDA`: Script para análisis de datos.
 - `03 - Deep Learning Regresion`: Script para aplicar técnicas de regresión mediante deep learning. Este script utiliza modelos de aprendizaje profundo para realizar predicciones basadas en los datos procesados.
 - `Complemento - Folium`: para limpiar datos y generar mapas interactivos de accidentes.
+
 - **Archivos CSV**: Datos utilizados como base para el proyecto, dentro de la carpeta de Data (Se explica en Uso).
 
 
