@@ -1,20 +1,6 @@
 # Proyecto Accidentalidad
 
-Este repositorio alberga varios scripts vinculados al proyecto Accidentalidad. 
-
-Los archivos CSV, utilizados como base del proyecto, deben estar organizados en una carpeta específica llamada Data. Como GitHub no permite subir carpetas vacías, es necesario que los usuarios creen esta carpeta manualmente y coloquen los archivos CSV correspondientes dentro de ella. 
-
-El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta: 
-
-`ubicacion = f"Data/{year}_Accidentalidad.csv"`
-
-El archivo `Limpieza.ipynb` se encarga de procesar y limpiar los datos de los archivos CSV ubicados en la carpeta `Data`. Tras la limpieza, los datos son almacenados en un archivo binario llamado `accidentes.pkl`, que se puede utilizar en futuras fases del proyecto para evitar tener que procesar los datos desde cero cada vez.
-
-A continuación se abre el archivo `EDA.ipynb` para visualizar los datos, detectar valores nulos y anomalías, y explorar relaciones y patrones mediante estadísticas descriptivas y gráficos, sacando algunas conclusiones de ellos. 
-
-En el archivo `Deep Learning Regresion.ipynb` se crea un Modelo de Regresión para la Predicción de Accidentes de Tráfico en Madrid al día mediante Redes Neuronales Recurrentes.
-
-Por último, `Complemento - Folium` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
+Este repositorio alberga varios scripts vinculados al proyecto Accidentalidad.
 
 ## Descripción
 
@@ -29,12 +15,9 @@ Este proyecto se enfocó en el desarrollo de un modelo de red neuronal recurrent
 - `01 - Limpieza.ipynb`: Script para limpieza de datos.
 - `02 - EDA`: Script para análisis de datos.
 - `03 - Deep Learning Regresion`: Script para aplicar técnicas de regresión mediante deep learning. Este script utiliza modelos de aprendizaje profundo para realizar predicciones basadas en los datos procesados.
+- `Complemento - Folium`: para limpiar datos y generar mapas interactivos de accidentes.
+- **Archivos CSV**: Datos utilizados como base para el proyecto, dentro de la carpeta de Data (Se explica en Uso).
 
-Dentro del archivo `.zip` incluido en el repositorio, encontrarás los siguientes elementos:
-
-- **Archivos CSV**: Datos utilizados como base para el proyecto, dentro de la carpeta de Data.
-- **Archivos PKL**: Archivos resultantes después de la limpieza y el análisis exploratorio de datos (EDA). Estos archivos contienen los datos procesados y limpios.
-- **Mapas de Accidentes**: Mapas interactivos creados con la librería Folium, que muestran la distribución de accidentes por distritos en Madrid.
 
 ## Instalación
 
@@ -59,4 +42,21 @@ Para ejecutar los scripts en este proyecto, asegúrate de tener instaladas las s
 
 ## Uso
 
-Sigue las instrucciones en los notebooks para ejecutar los scripts.
+Los archivos CSV, utilizados como base del proyecto, deben estar organizados en una carpeta específica llamada Data. Como GitHub no permite subir carpetas vacías, es necesario que los usuarios creen esta carpeta manualmente y coloquen los archivos CSV correspondientes dentro de ella. 
+
+El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta: 
+
+`ubicacion = f"Data/{year}_Accidentalidad.csv"`
+
+El archivo `Limpieza.ipynb` se encarga de procesar y limpiar los datos de los archivos CSV ubicados en la carpeta `Data`. Tras la limpieza, los datos son almacenados en un archivo binario llamado `accidentes.pkl`, que se puede utilizar en futuras fases del proyecto para evitar tener que procesar los datos desde cero cada vez.
+
+A continuación se abre el archivo `EDA.ipynb` para visualizar los datos, detectar valores nulos y anomalías, y explorar relaciones y patrones mediante estadísticas descriptivas y gráficos, sacando algunas conclusiones de ellos. 
+
+En el archivo `Deep Learning Regresion.ipynb` se crea un archivo `accidentes_series_temporales.pkl` que contiene los datos procesados para el modelo de predicción. Este archivo incluye lo siguiente:
+
+- La variable objetivo (`target`) ya está guardada para iniciar el modelo.
+- Se han añadido nuevos días con cero accidentes en Madrid para mejorar la precisión del modelo.
+- Se han creado nuevas columnas que enriquecen el modelo.
+- Las columnas originales han sido convertidas a formato numérico para facilitar su uso en el modelo de aprendizaje profundo.
+
+Por último, `Complemento - Folium` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
