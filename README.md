@@ -12,7 +12,7 @@ Este proyecto se enfocó en el desarrollo de un modelo de red neuronal recurrent
 
 ## Archivos
 
-- `01 - Limpieza.ipynb`: Script para limpieza de datos.
+- `01 - Limpieza`: Script para limpieza de datos.
 - `02 - EDA`: Script para análisis de datos.
 - `03 - Deep Learning Regresion`: Script para aplicar técnicas de regresión mediante deep learning. Este script utiliza modelos de aprendizaje profundo para realizar predicciones basadas en los datos procesados.
 - `Complemento - Folium`: para limpiar datos y generar mapas interactivos de accidentes.
@@ -49,15 +49,15 @@ El script de limpieza cargará los archivos de la carpeta `Data` utilizando la s
 
 `ubicacion = f"Data/{year}_Accidentalidad.csv"`
 
-El archivo `Limpieza.ipynb` se encarga de procesar y limpiar los datos de los archivos CSV ubicados en la carpeta `Data`. Tras la limpieza, los datos son almacenados en un archivo binario llamado `accidentes.pkl`, que se puede utilizar en futuras fases del proyecto para evitar tener que procesar los datos desde cero cada vez.
+El archivo `01 - Limpieza.ipynb` se encarga de procesar y limpiar los datos de los archivos CSV ubicados en la carpeta `Data`. Tras la limpieza, los datos son almacenados en un archivo binario llamado `accidentes.pkl`, que se puede utilizar en futuras fases del proyecto para evitar tener que procesar los datos desde cero cada vez.
 
-A continuación se abre el archivo `EDA.ipynb` para visualizar los datos, detectar valores nulos y anomalías, y explorar relaciones y patrones mediante estadísticas descriptivas y gráficos, sacando algunas conclusiones de ellos. 
+A continuación se abre el archivo `02 - EDA.ipynb` para visualizar los datos, detectar valores nulos y anomalías, y explorar relaciones y patrones mediante estadísticas descriptivas y gráficos, sacando algunas conclusiones de ellos. 
 
-En el archivo `Deep Learning Regresion.ipynb` se crea un archivo `accidentes_series_temporales.pkl` que contiene los datos procesados para el modelo de predicción. Este archivo incluye lo siguiente:
+En el archivo `03 - Deep Learning Regresion.ipynb` se crea un archivo `accidentes_series_temporales.pkl` que contiene los datos procesados para el modelo de predicción. Este archivo incluye lo siguiente:
 
 - La variable objetivo (`target`) ya está guardada para iniciar el modelo.
 - Se han añadido nuevos días con cero accidentes en Madrid para mejorar la precisión del modelo.
 - Se han creado nuevas columnas que enriquecen el modelo.
 - Las columnas originales han sido convertidas a formato numérico para facilitar su uso en el modelo de aprendizaje profundo.
 
-Por último, `Complemento - Folium` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
+Por último, `Complemento - Folium.ipynb` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
