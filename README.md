@@ -12,9 +12,9 @@ El archivo `Limpieza.ipynb` se encarga de procesar y limpiar los datos de los ar
 
 A continuación se abre el archivo `EDA.ipynb` para visualizar los datos, detectar valores nulos y anomalías, y explorar relaciones y patrones mediante estadísticas descriptivas y gráficos, sacando algunas conclusiones de ellos. 
 
-Por último, en el archivo `Deep Learning Regresion.ipynb` se crea un Modelo de Regresión para la Predicción de Accidentes de Tráfico en Madrid al día mediante Redes Neuronales Recurrentes.
+En el archivo `Deep Learning Regresion.ipynb` se crea un Modelo de Regresión para la Predicción de Accidentes de Tráfico en Madrid al día mediante Redes Neuronales Recurrentes.
 
-`Complemento - Folium` tiene diversos mapas de los accidentes por distritos en Madrid, creados con la librería Folium. 
+Por último, `Complemento - Folium` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
 
 ## Descripción
 
