@@ -61,3 +61,13 @@ En el archivo `03 - Deep Learning Regresion.ipynb` se crea un archivo `accidente
 - Las columnas originales han sido convertidas a formato numérico para facilitar su uso en el modelo de aprendizaje profundo.
 
 Por último, `Complemento - Folium.ipynb` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
+
+Mapa de Accidentes en Madrid
+-![image](https://github.com/user-attachments/assets/a479b56e-4ebf-4d68-970b-d5137c2dfb4f)
+
+
+Mapa por distritos en Madrid
+-
+
+Mapa de accidentes recurrentes en Madrid
+-
