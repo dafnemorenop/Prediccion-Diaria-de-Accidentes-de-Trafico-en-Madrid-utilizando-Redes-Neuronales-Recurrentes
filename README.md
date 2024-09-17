@@ -1,6 +1,6 @@
 # Proyecto Accidentalidad
 
-Este repositorio alberga varios scripts vinculados al proyecto Accidentalidad.
+Este repositorio contiene varios scripts relacionados con el proyecto Accidentalidad. Los datos utilizados para el desarrollo del proyecto han sido obtenidos del Portal de Datos Abiertos del Ayuntamiento de Madrid.
 
 ## Descripción
 
