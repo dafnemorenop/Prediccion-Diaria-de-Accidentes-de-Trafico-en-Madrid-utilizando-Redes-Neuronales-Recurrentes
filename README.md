@@ -2,6 +2,9 @@
 
 Este repositorio contiene varios scripts relacionados con el proyecto Accidentalidad. Los datos utilizados para el desarrollo del proyecto han sido obtenidos del Portal de Datos Abiertos del Ayuntamiento de Madrid.
 
+[Accidentes de tráfico de la Ciudad de Madrid - Portal de datos abiertos del Ayuntamiento de Madrid
+](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=7c2843010d9c3610VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default)
+
 ## Descripción
 
 Predicción Diaria de Accidentes de Tráfico en Madrid utilizando Redes Neuronales Recurrentes: Un Enfoque de Deep Learning para Análisis de Series Temporales.
@@ -63,11 +66,16 @@ En el archivo `03 - Deep Learning Regresion.ipynb` se crea un archivo `accidente
 Por último, `Complemento - Folium.ipynb` limpia los datos para generar diversos mapas de los accidentes por distritos en Madrid, utilizando la librería Folium.
 
 Mapa de Accidentes en Madrid
--![image](https://github.com/user-attachments/assets/a479b56e-4ebf-4d68-970b-d5137c2dfb4f)
+
+![image](https://github.com/user-attachments/assets/a479b56e-4ebf-4d68-970b-d5137c2dfb4f)
 
 
 Mapa por distritos en Madrid
--
+
+![image](https://github.com/user-attachments/assets/331cb134-ba9b-4f2b-993a-e520e9831624)
+
 
 Mapa de accidentes recurrentes en Madrid
--
+
+![image](https://github.com/user-attachments/assets/c06d6985-7242-455f-a824-2ab68a3b3bb2)
+
