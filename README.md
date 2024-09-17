@@ -2,11 +2,9 @@
 
 Este repositorio alberga varios scripts vinculados al proyecto Accidentalidad. 
 
-Los archivos CSV utilizados como base del proyecto, deben estar organizados en una carpeta específica llamada Data. Como GitHub no permite subir carpetas vacías, es necesario que los usuarios creen esta carpeta manualmente y coloquen los archivos CSV correspondientes dentro de ella. 
+Los archivos CSV, utilizados como base del proyecto, deben estar organizados en una carpeta específica llamada Data. Como GitHub no permite subir carpetas vacías, es necesario que los usuarios creen esta carpeta manualmente y coloquen los archivos CSV correspondientes dentro de ella. 
 
-El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta:
-
-`ubicacion = f"Data/{year}_Accidentalidad.csv"`
+El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta: `ubicacion = f"Data/{year}_Accidentalidad.csv"`
 
 El archivo `Limpieza.ipynb` se encarga de procesar y limpiar los datos de los archivos CSV ubicados en la carpeta `Data`. Tras la limpieza, los datos son almacenados en un archivo binario llamado `accidentes.pkl`, que se puede utilizar en futuras fases del proyecto para evitar tener que procesar los datos desde cero cada vez.
 
@@ -14,7 +12,7 @@ A continuación se abre el archivo `EDA.ipynb` para visualizar los datos, detect
 
 Por último, en el archivo `Deep Learning Regresion.ipynb` se crea un Modelo de Regresión para la Predicción de Accidentes de Tráfico en Madrid al día mediante Redes Neuronales Recurrentes.
 
-diversos mapas de los accidentes por distritos en Madrid, creados con la librería Folium. Debido a su tamaño, los archivos .pkl se encuentran en un archivo comprimido.
+También hay diversos mapas de los accidentes por distritos en Madrid, creados con la librería Folium. 
 
 ## Descripción
 
