@@ -19,9 +19,7 @@ Este proyecto se enfocó en el desarrollo de un modelo de red neuronal recurrent
 - `02 - EDA`: Script para análisis de datos.
 - `03 - Deep Learning Regresion`: Script para aplicar técnicas de regresión mediante deep learning. Este script utiliza modelos de aprendizaje profundo para realizar predicciones basadas en los datos procesados.
 - `Complemento - Folium`: para limpiar datos y generar mapas interactivos de accidentes.
-
-- **Archivos CSV**: Datos utilizados como base para el proyecto, dentro de la carpeta de Data (Se explica en Uso).
-
+- `Data`: Esta carpeta contiene los **archivos CSV** que se utilizan como datos base para el proyecto. Todos los archivos de datos necesarios para el análisis se encuentran dentro de esta carpeta.
 
 ## Instalación
 
@@ -46,9 +44,7 @@ Para ejecutar los scripts en este proyecto, asegúrate de tener instaladas las s
 
 ## Uso
 
-Los archivos CSV, utilizados como base del proyecto, deben estar organizados en una carpeta específica llamada Data. Como GitHub no permite subir carpetas vacías, es necesario que los usuarios creen esta carpeta manualmente y coloquen los archivos CSV correspondientes dentro de ella. 
-
-El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta: 
+Los archivos CSV, utilizados como base del proyecto, están dentro de la carpeta Data. El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta: 
 
 `ubicacion = f"Data/{year}_Accidentalidad.csv"`
 
