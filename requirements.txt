@@ -1,0 +1,7 @@
+pandas==2.2.1              # Para manipulación y análisis de datos.
+numpy==1.26.4              # Para operaciones numéricas.
+plotly==5.20.0             # Para visualización interactiva de datos (incluye plotly.express, plotly.graph_objects, plotly.subplots).
+matplotlib==3.8.3          # Para visualización de datos estática.
+seaborn==0.12.2            # Para visualización de datos estadísticos.
+keras==2.13.1              # Para construir y entrenar modelos de deep learning (incluye keras.callbacks, keras.layers, keras.optimizers).
+tensorflow==2.14.0         # Para crear y entrenar redes neuronales con Keras (incluye tensorflow.keras.layers, tensorflow.keras.models).
