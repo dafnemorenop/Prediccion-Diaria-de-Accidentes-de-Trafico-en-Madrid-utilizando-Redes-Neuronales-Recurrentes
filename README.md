@@ -21,27 +21,6 @@ Este proyecto se enfocó en el desarrollo de un modelo de red neuronal recurrent
 - `Complemento - Folium`: para limpiar datos y generar mapas interactivos de accidentes.
 - `Data`: Esta carpeta contiene los **archivos CSV** que se utilizan como datos base para el proyecto. Todos los archivos de datos necesarios para el análisis se encuentran dentro de esta carpeta. Los datos corresponden a los registros de accidentes de tráfico ocurridos en la Comunidad de Madrid, abarcando el periodo desde 2010 hasta la fecha de realización del proyecto en 2024.
 
-## Instalación
-
-Para ejecutar los scripts en este proyecto, asegúrate de tener instaladas las siguientes librerías:
-
-- `pandas` (para manipulación y análisis de datos)
-- `numpy` (para operaciones numéricas)
-- `re` (para operaciones con expresiones regulares)
-- `plotly` (para visualización interactiva de datos)
-  - `plotly.express` (para crear gráficos interactivos de forma sencilla)
-  - `plotly.graph_objects` (para crear gráficos personalizados)
-  - `plotly.subplots` (para crear subgráficos)
-- `matplotlib` (para visualización de datos estática)
-- `seaborn` (para visualización de datos estadísticos)
-- `keras` (para construir y entrenar modelos de deep learning)
-  - `keras.callbacks` (para callbacks durante el entrenamiento de modelos)
-  - `keras.layers` (para diferentes capas de redes neuronales)
-  - `keras.optimizers` (para optimizadores en redes neuronales)
-- `tensorflow` (para crear y entrenar redes neuronales con Keras)
-  - `tensorflow.keras.layers` (para capas en redes neuronales)
-  - `tensorflow.keras.models` (para definir y entrenar modelos de redes neuronales)
-
 ## Uso
 
 Los archivos CSV, utilizados como base del proyecto, están dentro de la carpeta Data. El script de limpieza cargará los archivos de la carpeta `Data` utilizando la siguiente ruta: 
@@ -74,4 +53,11 @@ Por último, `Complemento - Folium.ipynb` limpia los datos para generar diversos
 - Mapa de accidentes recurrentes en Madrid
 
 ![image](https://github.com/user-attachments/assets/c06d6985-7242-455f-a824-2ab68a3b3bb2)
+
+## Instalación de librerías
+
+Para ejecutar los scripts en este proyecto, asegúrate de tener instaladas las librerías que aparecen en `requirements.txt`. Puedes instalarlas todas ejecutando el siguiente comando:
+
+```bash
+pip install -r requirements.txt
 
